@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
             steps{
                 echo 'Building the image...'
-                bat 'docker build -t isn/contactform .'
+                bat 'docker build -t isn/contactform:v2 .'
             }
         }
         stage('Push'){
