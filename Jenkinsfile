@@ -1,5 +1,5 @@
 pipeline{
-    agent: { label 'fprt' },
+    agent: { label 'fprt' }
     stages{
         stage('Build'){
             steps{
