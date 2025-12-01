@@ -1,7 +1,7 @@
-FROM node:18
+FROM ubuntu:latest
 
 WORKDIR /app
 COPY . .
 
 EXPOSE 3000
-CMD [ "start", "index.html" ]
+CMD [ "command.exe", "index.html" ]
