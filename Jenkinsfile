@@ -1,5 +1,5 @@
 pipeline{
-    agent: fprt,
+    agent: { any },
     stages{
         stage('Build'){
             steps{
